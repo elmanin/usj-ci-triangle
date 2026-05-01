@@ -1,4 +1,10 @@
 /*
+ * getTriangleType receives three side lengths and returns a string
+ * describing the triangle type or an error message.
+ * Possible triangle types are Equilateral, Isosceles, and Scalene.
+ */
+
+/*
  * Implements the problem of triangle calcuation
  */
 
