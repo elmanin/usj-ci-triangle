@@ -36,10 +36,6 @@ function getTriangleType(lengthA, lengthB, lengthC) {
       }
     }
   }
-  gtag('event', 'triangle_calculated', {
-    'triangle_type': triangleType,  // e.g., 'EQUILATERAL'
-    'timestamp': new Date().toISOString()
-  });
   
   return type;
 }
